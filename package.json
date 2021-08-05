@@ -1,0 +1,47 @@
+{
+    "name": "uefi-extension-pack",
+    "displayName": "UEFI Firmware Extension Pack",
+    "description": "Useful Visual Studio Code extensions for UEFI firmware engineer",
+    "version": "0.1.0",
+    "publisher": "Tony C.S. Lo",
+	"author": {
+		"name": "Tony C.S. Lo",
+		"email": "bleuvasa@gmail.com"
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/vangoghynot/vscode-uefi-extension-pack"
+	},
+	"bugs": {
+		"url": "ttps://github.com/vangoghynot/vscode-uefi-extension-pack/issues"
+	},
+	"galleryBanner": {
+		"color": "#3e435e",
+		"theme": "dark"
+	},
+    "engines": {
+        "vscode": "^1.58.0"
+    },
+	"keywords": [
+		"uefi",
+		"edk2",
+		"uefifirmware",
+		"efifirmware",
+    "firmware",
+    "efi",
+    "bios"
+	],
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [
+        "ivanhofer.git-assistant",
+        "gitlab.gitlab-workflow",
+        "eamodio.gitlens",
+        "alefragnani.project-manager",
+      	"mccarter.start-git-bash",
+        "pinshengjuan.edk2-uni-formatter",
+        "walonli.edk2-vscode"
+    ]
+}
