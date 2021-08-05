@@ -1,0 +1,1 @@
+# vscode-uefi-extension-pack
