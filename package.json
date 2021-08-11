@@ -3,7 +3,7 @@
     "displayName": "UEFI Firmware Extension Pack",
     "description": "Useful Visual Studio Code extensions for UEFI firmware engineer",
     "version": "0.1.0",
-    "publisher": "Tony C.S. Lo",
+    "publisher": "TonyCSLo",
 	"author": {
 		"name": "Tony C.S. Lo",
 		"email": "bleuvasa@gmail.com"
