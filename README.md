@@ -1,11 +1,24 @@
 
-# UEFI Firmware Extension Pack
+# UEFI Firmware Extension Pack <!-- omit in toc -->
 
 This extension pack packages some useful extensions for UEFI Firmware engineer.
 
 Feel Free to share your useful extensions.
 
 **Thank You !!!**
+
+# Table of Content <!-- omit in toc -->
+- [My Visual Studio Code Keyboard Shortcuts](#my-visual-studio-code-keyboard-shortcuts)
+- [UEFI Firmware Resources](#uefi-firmware-resources)
+- [Installation Guide](#installation-guide)
+  - [Gitlab Setup](#gitlab-setup)
+    - [Create Personal Access Token](#create-personal-access-token)
+    - [VSCode Extension Setup](#vscode-extension-setup)
+    - [Modify VSCode setting "gitlab.InstanceUrl"](#modify-vscode-setting-gitlabinstanceurl)
+  - [Git Client Setup](#git-client-setup)
+    - [For Windows User](#for-windows-user)
+  - [Project Manager Setup](#project-manager-setup)
+  - [Keyboard Shortcuts](#keyboard-shortcuts)
 
 # My Visual Studio Code Keyboard Shortcuts
 [My VSCode Keyboard Shorcuts - Windows](https://github.com/vangoghynot/vscode-resources/blob/main/doc/my_vscode_win_key_cheatsheet.pdf)
@@ -88,6 +101,18 @@ For Git projects, VSCode setting "projectManager.git.baseFolders" specify the fo
 
 <br>
 <br>
+
+## Keyboard Shortcuts
+
+Press **Ctrl+K Ctrl+S** to launch the **Keyboard Shortcuts** table to customize below hotkeys, 
+
+|Command|Hotkey|Command ID|Comment|
+|:------|:-----|:-------|:----------|
+|||markdown.extension.editing.toggleBold|Remove the extension default hotkey to keep **Ctrl+B** for toggle sidebar visibility|
+|Tasks: Run Task|**Ctrl+K Shift+R**|workbench.action.tasks.runTask| Choose and run one task
+|Tasks: Run Test Task|**Ctrl+K Shift+T**|workbench.action.tasks.test|Run default test task
+|Tasks: Terminate Task|**Ctrl+K Shift+K**|workbench.action.tasks.terminate|Terminate one or all task(s).
+
 
 Hopefully this Quick Guidance Help. Enjoy !!!
 
