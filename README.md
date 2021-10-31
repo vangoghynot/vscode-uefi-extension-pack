@@ -19,6 +19,10 @@ Feel Free to share your useful extensions.
     - [For Windows User](#for-windows-user)
   - [Project Manager Setup](#project-manager-setup)
   - [Keyboard Shortcuts](#keyboard-shortcuts)
+- [User Guide](#user-guide)
+  - [1. Project Manager](#1-project-manager)
+  - [2. Markdown File Preview](#2-markdown-file-preview)
+  - [3. Git-bash (For Windows)](#3-git-bash-for-windows)
 
 # My Visual Studio Code Keyboard Shortcuts
 [My VSCode Keyboard Shorcuts - Windows](https://github.com/vangoghynot/vscode-resources/blob/main/doc/my_vscode_win_key_cheatsheet.pdf)
@@ -80,10 +84,8 @@ Fill-in below information:<br>
 
 <pre>
 Internet address: git:https://oauth2@your-gitlab.com
-
 User name: oauth2
-password: [Your PAT]
-
+Password: [Your PAT]
 </pre>
 
 
@@ -114,5 +116,36 @@ Press **Ctrl+K Ctrl+S** to launch the **Keyboard Shortcuts** table to customize 
 |Tasks: Terminate Task|**Ctrl+K Shift+K**|workbench.action.tasks.terminate|Terminate one or all task(s).
 
 
-Hopefully this Quick Guidance Help. Enjoy !!!
+# User Guide
 
+## 1. Project Manager
+
+The usage of "Project Manager" extension is available:
+https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager
+
+
+- Save Project Workspace with Tag
+- Switch Project via Tag
+- Set Project Root Folders (All Projects under this folder will be listed in treeview.)
+
+## 2. Markdown File Preview
+
+Show preview in right window:<br>
+- Open one markdown file in editor<br>
+- Press Hotkey Ctrl+K V<br>
+
+Use **Palette** command **Markdown: Open Preview to the side** can achieve the same.
+
+Show preview in tab:<br>
+-Open one markdown file in editor<br>
+-Press Hotkey Ctrl+Shift V<br>
+
+Use **Palette** command **Markdown: Open Preview** can achieve the same.
+
+## 3. Git-bash (For Windows)
+
+"Git for Windows" provides Git-bash for Git commands operation in linux terminal type of bash.
+
+Steps to launch Git-bash and set defaule folder in workspace root folder.<br>
+- Press F1 to launch command palette
+- Select "bash in workspace"
