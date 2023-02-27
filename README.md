@@ -14,7 +14,6 @@ Feel Free to share your useful extensions.
   - [Gitlab Setup](#gitlab-setup)
     - [Create Personal Access Token](#create-personal-access-token)
     - [VSCode Extension Setup](#vscode-extension-setup)
-    - [Modify VSCode setting "gitlab.InstanceUrl"](#modify-vscode-setting-gitlabinstanceurl)
   - [Git Client Setup](#git-client-setup)
     - [For Windows User](#for-windows-user)
   - [Project Manager Setup](#project-manager-setup)
@@ -54,19 +53,9 @@ Note: Remember to backup your token after you create it. You won't be able to ac
 Once the PAT is created properly, in VSCode,
 
 -launch the command palette (Press F1)<br>
--Execute command "GitLab: Set GitLab Personal Access Token"<br>
+-Execute command "GitLab: Add Account to VS Code"<br>
 -Input Gitlab server URL (For example: https://gitlab.com)
 -Input PAT
-
-### Modify VSCode setting "gitlab.InstanceUrl"
-
-If the official gitlab server gitlab.com is not consumed, the VSCode setting "gitlab.InstanceUrl" should be set to match the target gitlab server.
-
--Launch the command palette (Press F1)<br>
--Execute command "Preferences: Open Settings (UI)"<br>
--Type "instanceurl" to locate the key "Gitlab: Instance Url".<br>
--Click "Edit in settings.json", modify like below<br>
-"gitlab.instanceUrl": "https://your-gitlab.com",
 
 ## Git Client Setup
 The Git client should be properly configured for the VSCode source control functionality.
