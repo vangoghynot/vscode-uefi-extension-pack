@@ -2,7 +2,7 @@
 	"name": "uefi-extension-pack",
 	"displayName": "UEFI Firmware Extension Pack",
 	"description": "Useful Visual Studio Code extensions for UEFI firmware engineer",
-	"version": "0.1.7",
+	"version": "0.1.8",
 	"publisher": "TonyCSLo",
 	"author": {
 		"name": "Tony C.S. Lo",
@@ -48,6 +48,8 @@
     	"efi",
     	"bios",
     	"acpi",
+		"usf",
+		"slimboot",
     	"gitlab"
 	],
     "categories": [

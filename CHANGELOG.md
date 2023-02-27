@@ -5,7 +5,6 @@
   - [Gitlab Setup](#gitlab-setup)
     - [Create Personal Access Token](#create-personal-access-token)
     - [VSCode Extension Setup](#vscode-extension-setup)
-    - [Modify VSCode setting "gitlab.InstanceUrl"](#modify-vscode-setting-gitlabinstanceurl)
   - [Git Client Setup](#git-client-setup)
     - [For Windows User](#for-windows-user)
   - [Project Manager Setup](#project-manager-setup)
@@ -15,6 +14,8 @@
   - [2. Markdown File Preview](#2-markdown-file-preview)
   - [3. Git-bash (For Windows)](#3-git-bash-for-windows)
 - [History](#history)
+  - [v0.1.8](#v018)
+  - [v0.1.7](#v017)
   - [v0.1.6](#v016)
   - [v0.1.5](#v015)
   - [v0.1.4](#v014)
@@ -48,22 +49,13 @@ Note: Remember to backup your token after you create it. You won't be able to ac
 Once the PAT is created properly, in VSCode,
 
 -launch the command palette (Press F1)<br>
--Execute command "GitLab: Set GitLab Personal Access Token"<br>
+-Execute command "GitLab: Add account to VS Code"<br>
 -Input Gitlab server URL (For example: https://gitlab.com)
 -Input PAT
 
-### Modify VSCode setting "gitlab.InstanceUrl"
-
-If the official gitlab server gitlab.com is not consumed, the VSCode setting "gitlab.InstanceUrl" should be set to match the target gitlab server.
-
--Launch the command palette (Press F1)<br>
--Execute command "Preferences: Open Settings (UI)"<br>
--Type "instanceurl" to locate the key "Gitlab: Instance Url".<br>
--Click "Edit in settings.json", modify like below<br>
-"gitlab.instanceUrl": "https://your-gitlab.com",
-
 ## Git Client Setup
 The Git client should be properly configured for the VSCode source control functionality.
+
 ### For Windows User
 
 -Visit "Windows Credentials" in Windows "Credential Manager"
@@ -149,6 +141,15 @@ Steps to launch Git-bash and set defaule folder in workspace root folder.<br>
 Hopefully this Quick Guidance Help. Enjoy !!!
 
 # History
+
+## v0.1.8
+
+Update git setup guide.
+
+## v0.1.7
+
+Update setup guide.
+
 ## v0.1.6
 
 Add Microsoft C/C++ extension.
