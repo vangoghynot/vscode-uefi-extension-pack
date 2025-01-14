@@ -2,9 +2,9 @@
 - [My Visual Studio Code Keyboard Shortcuts](#my-visual-studio-code-keyboard-shortcuts)
 - [UEFI Firmware Resources](#uefi-firmware-resources)
 - [Installation Guide](#installation-guide)
-  - [Gitlab Setup](#gitlab-setup)
-    - [Create Personal Access Token](#create-personal-access-token)
-    - [VSCode Extension Setup](#vscode-extension-setup)
+  - [Gitlab Extension Setup](#gitlab-extension-setup)
+    - [Create Personal Access Token (PAT)](#create-personal-access-token-pat)
+  - [RST Preview Extension Setup](#rst-preview-extension-setup)
   - [Git Client Setup](#git-client-setup)
     - [For Windows User](#for-windows-user)
   - [Project Manager Setup](#project-manager-setup)
@@ -12,8 +12,10 @@
 - [User Guide](#user-guide)
   - [1. Project Manager](#1-project-manager)
   - [2. Markdown File Preview](#2-markdown-file-preview)
-  - [3. Git-bash (For Windows)](#3-git-bash-for-windows)
+  - [3. RST File Preview](#3-rst-file-preview)
+  - [4. Git-bash (For Windows)](#4-git-bash-for-windows)
 - [History](#history)
+  - [v0.1.9](#v019)
   - [v0.1.8](#v018)
   - [v0.1.7](#v017)
   - [v0.1.6](#v016)
@@ -35,23 +37,34 @@
 
 Provide some setup guidance before using the extensions. Visit the extension in market place to get more details of each extension, include setup guidance and function details.
 
-## Gitlab Setup
+## Gitlab Extension Setup
 
-### Create Personal Access Token
+In VSCode,
 
-First, follow below guidance to create one personal access token(PAT) with the scopes "api" and "read user"
+-launch the command palette (Press F1)<br>
+-Execute command "GitLab: Authenticate"<br>
+-Input Gitlab server URL (For example: https://gitlab.com)<br>
+-Choose "Create a token first" or "Enter an existing token"<br>
+If you don't have any Gitlab personal access token(PAT) yet,choose "Create a token first", the web broswer will be launched to login into the gitlab server for you to create a new token. (Proceed next section)
+
+If you already have a valid PAT, choose "Enter an existing token" then paste the token.
+
+### Create Personal Access Token (PAT)
+
+First, follow below guidance to create one personal access token(PAT) with the scopes "api" and "read user" right atleast.
 https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html
 
 Note: Remember to backup your token after you create it. You won't be able to access the token after revisit the web page.
 
-### VSCode Extension Setup
+## RST Preview Extension Setup
 
-Once the PAT is created properly, in VSCode,
-
+Open the VSCode settings UI via command or side bar UI.<br>
 -launch the command palette (Press F1)<br>
--Execute command "GitLab: Add account to VS Code"<br>
--Input Gitlab server URL (For example: https://gitlab.com)
--Input PAT
+-Execute command "Preferences: Open Settings (UI)"<br>
+
+Search key "Rst->Preview: Python Path"
+Input your python intrepreter path and executable file name. like "c:\python313\python.exe"
+
 
 ## Git Client Setup
 The Git client should be properly configured for the VSCode source control functionality.
@@ -130,7 +143,28 @@ Show preview in tab:<br>
 
 Use **Palette** command **Markdown: Open Preview** can achieve the same.
 
-## 3. Git-bash (For Windows)
+## 3. RST File Preview
+
+The .rst file preview can be done through:
+- Click the "preview" icon in upper right screen area
+- via VSCode command pallete
+- Hotkey
+<br>
+<br>
+
+Show preview in right window:<br>
+- Open one RST file in editor<br>
+- Press Hotkey Ctrl+K V<br>
+
+Use **Palette** command **RST: Open Preview to the side** can achieve the same.
+
+Show preview in tab:<br>
+-Open one RST file in editor<br>
+-Press Hotkey Ctrl+Shift V<br>
+
+Use **Palette** command **RST: Open Preview** can achieve the same.
+
+## 4. Git-bash (For Windows)
 
 "Git for Windows" provides Git-bash for Git commands operation in linux terminal type of bash.
 
@@ -141,6 +175,12 @@ Steps to launch Git-bash and set defaule folder in workspace root folder.<br>
 Hopefully this Quick Guidance Help. Enjoy !!!
 
 # History
+
+## v0.1.9
+
+Update gitlab extention setup.
+Add reStructuredText extension for reStructuredText (.rst) language support.
+Add RST preview extension.
 
 ## v0.1.8
 

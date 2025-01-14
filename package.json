@@ -2,10 +2,10 @@
 	"name": "uefi-extension-pack",
 	"displayName": "UEFI Firmware Extension Pack",
 	"description": "Useful Visual Studio Code extensions for UEFI firmware engineer",
-	"version": "0.1.8",
+	"version": "0.1.9",
 	"publisher": "TonyCSLo",
 	"author": {
-		"name": "Tony C.S. Lo",
+		"name": "Tony Lo",
 		"email": "bleuvasa@gmail.com"
 	},
 	"license": "MIT",
@@ -66,6 +66,8 @@
         "13xforever.language-x86-64-assembly",
         "thog.vscode-asl",
         "yzhang.markdown-all-in-one",
-        "ms-vscode.cpptools"
+        "ms-vscode.cpptools",
+		"lextudio.restructuredtext",
+		"tht13.rst-vscode"
     ]
 }
